@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<div class="GameStartScreen">
+    <h1>Welcome to Snake Game</h1>
+    <button class="StartButton">Start</button>
+</div>
+<div class="GameOverScreen">
+     <h1>Game Over</h1>
+    <button class="RestartButton">Restart</button>
+</div>
+
+
+<div class="parent">
+        <div class="infos">
+            <div class="info" id="highScore">High Score: <span class="highScore">0</span></div>
+            <div class="info" id="Score">Score: <span class="score">0</span></div>
+            <div class="info" id="Time">Time: <span class="time">00-00</span></div>
+        </div>
+
+        <div class="main"></div>
+
+    </div>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
